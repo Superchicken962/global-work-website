@@ -24,7 +24,7 @@ body {
 
 .leftbar {
     width: 10%;
-    height: 80%;
+    height: 50%;
     background-color: purple;
     list-style-type: none;
     margin: 0;
@@ -71,4 +71,51 @@ body {
 
 .center-text {
     text-align: center;
+}
+
+.tasksheetpdf {
+    display: block;
+    margin: auto;
+    border: 10px outset gold;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: lightyellow;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    width: 35%;
+}
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+}
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    background-color: lightseagreen;
+    max-height: 0;
+    color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 35%;
+    margin: auto;
+}
+
+.cqanswer {
+    padding: 0 18px;
+    background-color: lightseagreen;
+    color: white;
+    width: 35%;
+    margin: auto;
+    font-size: 18px;
+    border: 5px inset lightseagreen;
 }
